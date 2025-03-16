@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级分组系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-box">
+            <input type="text" id="nameInput" placeholder="输入姓名">
+            <select id="groupSelect">
+                <option value="聊天党">聊天党</option>
+                <!-- 其他分组选项 -->
+            </select>
+            <button onclick="submitForm()">提交分组</button>
+        </div>
+        <div class="groups-container" id="groups"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
